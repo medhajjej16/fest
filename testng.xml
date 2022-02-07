@@ -4,11 +4,11 @@
 	<test name="Regression Test" preserve-order="false">
 		<classes>
 
-			<class name="tests.UserRegistrationJavafake" />				
+			<class name="tests.UserRegistrationJavafake" />
 			<class name="tests.WichListTest" />
-			<class name="tests.ChangeCurrencyTest" />			
-			<class name="tests.ProductHoverMenuTest" />
-			
+			<class name="tests.ChangeCurrencyTest" />
+
+
 
 
 		</classes>
