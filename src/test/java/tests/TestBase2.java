@@ -30,8 +30,8 @@ public class TestBase2 {
 		driver =new ThreadLocal<>();		
 		DesiredCapabilities caps =new DesiredCapabilities();
 		caps.setCapability("browserName", browser);
-		driver.set(new RemoteWebDriver(new URL(SAUCEURL), caps));
-		//driver.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), caps));
+		//driver.set(new RemoteWebDriver(new URL(SAUCEURL), caps));
+		driver.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), caps));
 		getDriver().navigate().to(BaseURL);
 	}
 	public WebDriver getDriver() {
